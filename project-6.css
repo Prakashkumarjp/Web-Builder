@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Ephesis&display=swap');
+
+body{   
+    
+    text-decoration: none !important;
+    list-style: none;
+    text-transform: capitalize !important;
+}
+
+
+.main{
+    background-image: url(images/pexels-60.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.text{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-3{
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+input[type=text],input[type=email]{
+    width: 100%;
+    background-color: rgb(191, 191, 27);
+    color: black;
+    border: 0;
+}
+
+input[type=text], input[type=email]{
+    width: 100%;
+}
+
+.subscribe{
+    width: 100%;
+}
+
+.fa-envelope-square{
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.296);
+    margin-top: 40%;
+    text-align: left;
+}
+
+.conta-img{
+    background-image: url(images/image-13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    background-position: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-nav ul li{
+    
+    list-style: none;
+    padding: 10px;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
